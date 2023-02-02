@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bc965cd-2a6c-420f-8d0e-57df9405404c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2KjGnU21mJlQfJ86UJsHSKfBSIH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\vacaay\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\vacaay\js" />
+      <recent name="D:\Work\vacaay\scss" />
+      <recent name="D:\Work\vacaay\images" />
+      <recent name="D:\Work\vacaay\fonts" />
+      <recent name="D:\Work\vacaay" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bc965cd-2a6c-420f-8d0e-57df9405404c" name="Default Changelist" comment="" />
+      <created>1674480746566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674480746566</updated>
+      <workItem from="1674480747667" duration="57000" />
+      <workItem from="1674480829142" duration="7701000" />
+      <workItem from="1674543952877" duration="34934000" />
+      <workItem from="1674629259126" duration="6187000" />
+      <workItem from="1674719221825" duration="197000" />
+      <workItem from="1675331611753" duration="546000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="252" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1674504507545">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="552" y="252" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1674504507545" />
+    <state x="877" y="302" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1674504697180">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="877" y="302" key="#com.intellij.ide.macro.MacrosDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1674504697180" />
+    <state x="888" y="398" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1674545773917">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="888" y="398" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1674545773917" />
+    <state x="766" y="375" width="661" height="677" key="EditFileWatcherDialog" timestamp="1674505539226">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="766" y="375" width="661" height="677" key="EditFileWatcherDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1674505539226" />
+    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1674505225232">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1674505225232" />
+    <state x="606" y="242" key="SettingsEditor" timestamp="1674505540349">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="606" y="242" key="SettingsEditor/0.0.2194.1194@0.0.2194.1194" timestamp="1674505540349" />
+    <state x="809" y="330" width="576" height="534" key="find.popup" timestamp="1674629929975">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="809" y="330" width="576" height="534" key="find.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1674629929975" />
+  </component>
+</project>

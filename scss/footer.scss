@@ -1,0 +1,121 @@
+@import "variables.scss";
+
+footer {
+  border-top: solid 1px $border-default;
+}
+
+.footer__main {
+  display: flex;
+  padding: 80px 80px 48px;
+
+  @include mobile {
+    padding: 40px 0;
+    flex-direction: column;
+  }
+
+  @include tablet {
+    padding: 40px 0;
+  };
+}
+
+.footer__logo {
+  flex: 0 0 256px;
+
+  @include mobile {
+    flex: 1;
+    margin-bottom: 40px;
+  }
+
+  @include tablet {
+    flex: 1;
+    padding-right: 40px;
+  };
+}
+
+.footer__social {
+  margin-top: 10px;
+
+  a {
+    margin-right: 24px;
+  }
+}
+
+.footer__links {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  a {
+    text-decoration: none;
+    color: $text-default;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  @include mobile {
+    grid-template-columns: repeat(2, 1fr);
+
+    a {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.footer__subscribe {
+  flex: 1;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+
+  .input {
+    display: flex;
+    border: 2px solid $border-default;
+    padding: 8px 8px 8px 16px;
+    border-radius: 90px;
+    margin-top: 16px;
+
+    input {
+      flex-grow: 2;
+      border: none;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    form:focus-within {
+      outline: 1px solid blue;
+    }
+
+    .button {
+      width: 32px;
+      height: 32px;
+      border-radius: 100px;
+      padding: 0;
+    }
+  }
+
+  @include mobile {
+    margin-top: 40px;
+  }
+}
+
+  .footer__copy {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: $text-title;
+    padding: 0 80px;
+
+    @include mobile {
+      padding: 0;
+    }
+
+    @include tablet {
+      padding: 0;
+    };
+  }

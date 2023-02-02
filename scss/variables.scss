@@ -1,0 +1,50 @@
+$mobile-width: 600px;
+$tablet-width: 1024px;
+$desktop-width: 1440px;
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile-width + 1px}) and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$tablet-width + 1px}) {
+    @content;
+  }
+}
+
+//colors
+$text-title: #23262F;
+$text-default: #777E90;
+$text-white: #FCFCFD;
+$text-link: #3B71FE;
+
+$background-default: #FCFCFD;
+$background-secondary: #F4F5F6;
+$background-button: #3B71FE;
+
+$border-default: #E6E8EC;
+
+//fonts
+@mixin font($font-family, $font-weight, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file + '.woff2') format('woff2'),
+    url($font-file + '.woff') format('woff');
+    font-weight: $font-weight;
+    font-style: normal;
+  }
+}
+
+@include font('Poppins', '400', '../fonts/poppins-400');
+@include font('Poppins-medium', '500', '../fonts/poppins-500');
+@include font('Poppins-semibold', '600', '../fonts/poppins-600');
+@include font('Poppins-bold', '700', '../fonts/poppins-700');
+
