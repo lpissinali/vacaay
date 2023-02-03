@@ -228,6 +228,29 @@ h2 {
   }
 }
 
+.section__default-header {
+  text-align: left;
+  padding: 24px;
+  line-height: 24px;
+
+  h1 {
+    font-size: 64px;
+    line-height: 64px;
+    color: $text-title;
+    margin-bottom: 24px;
+  }
+
+  @include mobile {
+    padding: 24px 0;
+
+    h1 {
+      font-size: 32px;
+      line-height: 32px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
 .planning__items {
   display: flex;
   background: url(../images/dash-line.png) no-repeat 220px 90px;
@@ -411,6 +434,13 @@ h2 {
 .owl-next {
   right: 20px;
   left: inherit;
+}
+
+.carousel__slide {
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .carousel__image {

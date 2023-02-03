@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Vacaay</title>
+    <meta content="Vacaay" name="description">
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<header>
+    <div class="main-container">
+        <div class="header__logo">
+            <a href="index.html"><img src="images/logo.svg" alt="Vacaay" /></a>
+        </div>
+        <div class="header__user">
+            <button class="button button-default mobile-hidden">My Trips</button>
+            <div class="header__notifications header__notifications-active"><img src="images/bell.svg" alt="Notifications"/></div>
+            <div class="header__avatar"><img src="images/avatar.png" alt="user" /></div>
+            <div class="header__menu mobile-visible">
+                <img src="images/burger-icon.svg" alt="menu"/>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="main-container">
+        <section class="section__default mt-30">
+            <div class="section__default-header">
+                <h1>Australia</h1>
+                <p>Famous for Beaches, The Outback, Great Barrier Reef, Unique Wildlife, Action, Adventure, Surfing, Sports, BBQ's, Pubs, Bars, Restaurants, Wineries, Cafe Scene</p>
+            </div>
+            <div class="gallery__container">
+                <div class="gallery__actions">
+                    <button type="button" class="button button-tertiary">
+                        <img class="mr-10" src="images/gallery.svg" alt="Gallery"/>
+                        Gallery
+                    </button>
+                    <button type="button" class="button button-blank">
+                        <img class="mr-10" src="images/info.svg" alt="Info"/> Info
+                    </button>
+                </div>
+                <div class="gallery__images">
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery1.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery2.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery3.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery4.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery5.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery6.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery7.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery8.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery9.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery10.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery11.jpg" alt=""/></a>
+                    </div>
+                    <div class="gallery__image">
+                        <a href="#"><img src="images/gallery/gallery12.jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="main-container">
+        <div class="footer__main">
+            <div class="footer__logo">
+                <img src="images/logo.svg" alt="Vacaay"/>
+                <div class="footer__social tablet-hidden">
+                    <a href="#"><img src="images/twitter.svg" alt="Twitter"/></a>
+                    <a href="#"><img src="images/instagram.svg" alt="Instagram"/></a>
+                    <a href="#"><img src="images/facebook.svg" alt="Facebook"/></a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">What We Do</a>
+                <a href="#">Press</a>
+                <a href="#">Jobs</a>
+                <a href="#">Download</a>
+            </div>
+            <div class="footer__subscribe">
+                <div>Join our community 🔥</div>
+                <div class="input">
+                    <input type="text" placeholder="Enter your email" />
+                    <button class="button button-secondary"><img src="images/arrow-right.svg" al=""/></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copy">
+            Copyright © 2022 Vacaay. All rights reserved
+        </div>
+    </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            center: true,
+            // items:1,
+            // stagePadding: 50,
+            nav: false,
+            navText: ["<img src='./images/left-arrow.png'>","<img src='./images/right-arrow.png'>"],
+            loop:true,
+            margin:32,
+            startPosition: 2,
+            autoWidth:true,
+            responsive:{
+                1024:{
+                    nav: true
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
+

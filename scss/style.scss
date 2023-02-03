@@ -3,6 +3,7 @@
 @import "header.scss";
 @import "main.scss";
 @import "footer.scss";
+@import "gallery.scss";
 
 * {
   margin: 0;
@@ -42,6 +43,10 @@ ol, li {
   margin: auto;
 }
 
+.text__left {
+  text-align: left;
+}
+
 .main-container {
   max-width: $desktop-width;
   padding: 0 80px;
@@ -57,6 +62,10 @@ ol, li {
     max-width: $tablet-width;
     padding: 0 40px;
   }
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
 
 .mr-10 {
@@ -87,6 +96,17 @@ ol, li {
   background: $background-button;
   color: $text-white;
   border: 2px solid $background-button;
+}
+
+.button-tertiary {
+  background: $background-tertiary;
+  color: $text-white;
+  border: 2px solid $background-tertiary;
+}
+
+.button-blank {
+  background: none;
+  border: none;
 }
 
 .button-round {
