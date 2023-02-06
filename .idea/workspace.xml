@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bc965cd-2a6c-420f-8d0e-57df9405404c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/country_view.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/gallery.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gallery/gallery9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/info.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vacaay" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/gallery.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +44,8 @@
       <recent name="D:\Work\vacaay\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\vacaay" />
+      <recent name="D:\Work\vacaay\vacaay" />
       <recent name="D:\Work\vacaay\js" />
     </key>
   </component>
@@ -84,7 +63,9 @@
       <workItem from="1674629259126" duration="6187000" />
       <workItem from="1674719221825" duration="197000" />
       <workItem from="1675331611753" duration="1139000" />
-      <workItem from="1675408184842" duration="7261000" />
+      <workItem from="1675408184842" duration="7683000" />
+      <workItem from="1675428445752" duration="16000" />
+      <workItem from="1675666823585" duration="317000" />
     </task>
     <servers />
   </component>

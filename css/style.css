@@ -535,6 +535,7 @@ h2 {
   line-height: 64px;
   color: #23262F;
   margin-bottom: 24px;
+  font-family: "Poppins-semibold";
 }
 @media (max-width: 600px) {
   .section__default-header {
@@ -954,10 +955,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 8px;
   }
-}
-.gallery__images img {
-  margin-bottom: 8px;
-  border-radius: 8px;
+  .gallery__images img {
+    margin-bottom: 8px;
+    border-radius: 8px;
+  }
 }
 
 * {
