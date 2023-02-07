@@ -1064,11 +1064,13 @@ ol, li {
   border: 2px solid #E6E8EC;
   border-radius: 90px;
   background: #fcfcfd;
-  padding: 12px 16px;
+  padding: 0 16px;
   font-size: 14px;
   text-align: center;
   color: #23262F;
   font-family: "Poppins", sans-serif;
+  height: 36px;
+  line-height: 34px;
 }
 .button:hover {
   cursor: pointer;
@@ -1105,7 +1107,7 @@ ol, li {
 }
 .button-image img {
   position: absolute;
-  top: 7px;
+  top: 4px;
   left: 16px;
 }
 
