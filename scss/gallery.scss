@@ -9,8 +9,11 @@
   backdrop-filter: blur(16px);
 
   @include mobile {
-    padding: 24px 16px 8px;
+    padding: 24px 16px 16px;
     border-radius: 20px;
+    background: none;
+    box-shadow: none;
+    border: none;
   }
 }
 
@@ -37,9 +40,9 @@
   @include mobile {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 8px;
+    grid-row-gap: 8px;
 
     img {
-      margin-bottom: 8px;
       border-radius: 8px;
     }
   }

@@ -232,11 +232,16 @@ h2 {
   margin: 30px 40px;
 
   @include mobile {
-    margin: 30px 20px;
+    margin: 30px 0;
+    background: linear-gradient(83.59deg, $background-default 36.52%, rgba(252, 252, 253, 0.83) 98.8%);
+    border: 1px solid $background-default;
+    box-shadow: 0 40px 64px -32px rgba(15, 15, 15, 0.1);
+    backdrop-filter: blur(16px);
+    border-radius: 20px;
   }
 
   @include tablet {
-    margin: 30px 20px;
+    margin: 30px 0;
   }
 }
 
@@ -254,7 +259,6 @@ h2 {
   }
 
   @include mobile {
-    padding: 24px 0;
 
     h1 {
       font-size: 32px;

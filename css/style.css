@@ -530,12 +530,17 @@ h2 {
 }
 @media (max-width: 600px) {
   .section__gallery {
-    margin: 30px 20px;
+    margin: 30px 0;
+    background: linear-gradient(83.59deg, #fcfcfd 36.52%, rgba(252, 252, 253, 0.83) 98.8%);
+    border: 1px solid #fcfcfd;
+    box-shadow: 0 40px 64px -32px rgba(15, 15, 15, 0.1);
+    backdrop-filter: blur(16px);
+    border-radius: 20px;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px) {
   .section__gallery {
-    margin: 30px 20px;
+    margin: 30px 0;
   }
 }
 
@@ -552,9 +557,6 @@ h2 {
   font-family: "Poppins-bold", sans-serif;
 }
 @media (max-width: 600px) {
-  .section__default-header {
-    padding: 24px 0;
-  }
   .section__default-header h1 {
     font-size: 32px;
     line-height: 32px;
@@ -944,8 +946,11 @@ footer {
 }
 @media (max-width: 600px) {
   .gallery__container {
-    padding: 24px 16px 8px;
+    padding: 24px 16px 16px;
     border-radius: 20px;
+    background: none;
+    box-shadow: none;
+    border: none;
   }
 }
 
@@ -971,9 +976,9 @@ footer {
   .gallery__images {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 8px;
+    grid-row-gap: 8px;
   }
   .gallery__images img {
-    margin-bottom: 8px;
     border-radius: 8px;
   }
 }
@@ -1016,6 +1021,10 @@ ol, li {
   margin: auto;
 }
 
+.left {
+  float: left;
+}
+
 .text__left {
   text-align: left;
 }
@@ -1039,6 +1048,10 @@ ol, li {
   }
 }
 
+.mt-4 {
+  margin-top: 4px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -1051,13 +1064,8 @@ ol, li {
   border: 2px solid #E6E8EC;
   border-radius: 90px;
   background: #fcfcfd;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 12px 16px;
-  height: 40px;
   font-size: 14px;
-  line-height: 16px;
   text-align: center;
   color: #23262F;
   font-family: "Poppins", sans-serif;
@@ -1086,7 +1094,19 @@ ol, li {
 .button-round {
   width: 64px;
   height: 64px;
+  padding: 17px 0 0;
+  display: block;
   border-radius: 100px;
+}
+
+.button-image {
+  position: relative;
+  padding-left: 50px;
+}
+.button-image img {
+  position: absolute;
+  top: 7px;
+  left: 16px;
 }
 
 @media (max-width: 600px) {
